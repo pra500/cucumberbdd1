@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite errors="0" failures="1" name="io.cucumber.core.plugin.JUnitFormatter" skipped="0" tests="9" time="0.922">
+    <testcase classname="enter any data1 testing" name="enter any data1" time="0.069">
+        <system-out><![CDATA[Given our data in table1....................................................passed
+When put sql injection add..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="enter any data1 testing" name="enter any data2" time="0.009">
+        <system-out><![CDATA[Given our data in table2....................................................passed
+When put sql injection update...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="enter any data1 testing" name="enter any data3" time="0.011">
+        <system-out><![CDATA[Given our data in table3....................................................passed
+When put sql injection delete...............................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="enter any data1 testing" name="enter any data4" time="0.047">
+        <system-out><![CDATA[Given our data in table4....................................................passed
+When put sql injection put..................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="enter any data1 testing" name="enter any data5" time="0.005">
+        <system-out><![CDATA[Given our data in table5....................................................passed
+When put sql injection patch................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Fetu1" name="Signout Confirmation" time="0.009">
+        <failure message="The scenario has pending or undefined step(s)" type="java.lang.Exception"><![CDATA[Given I am sign88...........................................................passed
+When I click on the sign88..................................................passed
+But login in sqlserver......................................................undefined
+]]></failure>
+    </testcase>
+    <testcase classname="Add User Functionality" name="Add User with Valid Information" time="0.008">
+        <system-out><![CDATA[Given I am logged in to the application as an admin.........................passed
+When I navigate to the add user page........................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="alpha" name="alpha testing" time="0.003">
+        <system-out><![CDATA[Given alpha starts..........................................................passed
+]]></system-out>
+    </testcase>
+    <testcase classname="Add User Functionality1" name="Add User with Valid Information11" time="0.01">
+        <system-out><![CDATA[Given I am logged in to the appli...........................................passed
+When I navigate to the ad...................................................passed
+]]></system-out>
+    </testcase>
+</testsuite>
